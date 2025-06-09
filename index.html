@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>CodeTech</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Tech11.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre</a>
+                        <a href="service.html" class="nav-item nav-link">Serviços</a>
+                        <a href="project.html" class="nav-item nav-link">Projetos</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Paginas</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="index.html" class="dropdown-item">Inicio</a>
+                                <a href="about.html" class="dropdown-item">Sobre</a>
+                                <a href="service.html" class="dropdown-item">Serviços</a>
+                                <a href="project.html" class="dropdown-item">Projetos</a>
+                                <a href="contact.html" class="dropdown-item">Contato</a>
+                                <a href="contact.html" class="nav-item nav-link">Contato</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">AI.Tech</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Sejam Bem Vindos Somos a CodeTech</h1>
+                    <p class="text-white mb-4 animated slideInRight">QUE TAL SABER MAIS SOBRE AS IA?
+                     "A inteligência artificial é um campo da ciência da computação que se dedica ao estudo e ao desenvolvimento de máquinas e programas computacionais capazes de reproduzir o comportamento humano na tomada de decisões e na realização de tarefas, desde as mais simples até as mais complexas.É comumente referida pela sigla IA ou AI"
+                    </p>
+                
+                    <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Se Interessou?</a>
+                    <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Saiba Mais</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/Tech11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/Tech2.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">"Como funciona a inteligência artificial?"</div>
+
+
+                    <h1 class="mb-4">"Como funciona a inteligência artificial?"</h1>
+                    <p class="mb-4">"O funcionamento da inteligência artificial, de maneira simplificada, acontece por meio da coleta e da combinação de um grande volume dados seguido da identificação de determinados padrões nesse conjunto de informações. Com esse processo, que geralmente se dá mediante a utilização de algoritmos pré-programados, o software consegue tomar decisões e realizar tarefas de maneira autônoma.
+
+                        Existe uma série de diferentes métodos por meio dos quais uma IA pode reproduzir o comportamento humano. Os dois principais são:
+                        
+                        Machine learning: chamado de aprendizado de máquina, é o processo que acontece de maneira automatizada. O reconhecimento e a reprodução de padrões são feitos pela IA com base na sua experiência prévia, adquirida pela utilização de algoritmos. Um dos principais exemplos são os mecanismos de pesquisa na internet.
+                        
+                        Deep learning: subcampo do machine learning, utiliza-se de redes neurais (unidades conectadas em rede para a análise de bancos de dados e informações) para emular o cérebro humano."
+                    </p>   
+                       
+                    <p class="mb-4">"Tipos de inteligência artificial"</p>
+                    
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>"Inteligência artificial limitada (ou estreita)" </h6>
+
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>"Inteligência artificial geral" </h6>
+                  </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>"Superinteligência artificial"</h6>
+                                
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>"Máquinas reativas"</h6>
+
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>"Memória limitada"</h6>
+                          
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>"Teoria da mente"</h6>
+
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>""Autoconsciente"</h6>
+                              
+                              
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-primary rounded-pill px-4 me-3" href="">Redes Sociais</a>
+                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI.Tech</div>
+                    <h1 class="mb-4">"Quais são os benefícios da inteligência artificial?"</h1>
+                        
+                    <p class="mb-4">"Maior eficácia na tomada de decisões e na execução de tarefas, com maior precisão e menor possibilidade da ocorrência de erros humanos.
+
+                        Tem a capacidade de funcionar de maneira ininterrupta e realizar tarefas repetitivas.
+                        
+                        Promove a automação de etapas do processo produtivo nas indústrias e fábricas, o que leva a um aumento da produtividade.
+                        
+                        Resultou em melhorias no processo de compra e venda online, e facilitou o atendimento ao consumidor.
+                        
+                        É responsável por avanços significativos na medicina, tendo introduzido processos inovadores que auxiliaram o trabalho dos médicos e enfermeiros e, além disso, beneficiaram pacientes de maneira direta.
+                        
+                        É cada vez mais útil e presente, como vimos, auxiliando em etapas da nossa rotina, nas comunicações e na realização de tarefas."
+                        
+                     </p>
+                   
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">"Quais são desvantagens da inteligência artificial?"</h5>
+                                           
+                                        <p>"Apresentam elevado custo de desenvolvimento e implementação, sendo um recurso restrito.
+
+                                            A automação de tarefas e da tomada de decisões tendem a ocasionar desemprego estrutural.
+                                            
+                                            Têm avanços limitados mesmo com maior acúmulo de experiência.
+                                            
+                                            Possibilidade de treinar o algoritmo a repetir padrões e discursos danosos e antiéticos.
+                                            
+                                            Podem apresentar falhas de controle que implicam risco àqueles que a controlam ou que fazem uso delas, como no caso dos carros autônomos.
+                                            
+                                            Riscos de segurança com relação à coleta ao armazenamento de dados pessoais, o que suscita intensos debates na sociedade atual."
+                                            
+                                          </p>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">"Qual seria a importância da inteligência artificial?"</h5>
+
+                                        
+                                        <p>"No cotidiano, a IA surgiu como uma auxiliar na rotina de milhões de usuários, otimizando aspectos do cotidiano e sendo adotada de maneira quase integral por muitas pessoas por meio da utilização de dispositivos inteligentes em casa e no trabalho, da realização dos deslocamentos via carros autônomos e do uso incansável de redes sociais, sites de busca e de compras, entre outros modelos de IA que garantem maior praticidade no dia a dia."</p>
+                                                                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">"História da inteligência artificial"
+                                        </h5>
+
+                                        <p>"A automatização de tarefas manuais e a replicação da consciência humana sempre foram temas presentes no debate científico, e que antecedem até mesmo a invenção dos computadores. Os estudos sobre redes neurais e os métodos pelos quais uma máquina consegue desenvolver tarefas como o cérebro humano ganharam força a partir do século XX, expandindo-se de maneira definitiva a partir da década de 1950."
+                                        </p>
+
+                                         </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Desafios e impactos da IA na sociedade</h5>
+                                        <p>"O potencial da Inteligência Artificial (IA) para gerar mudanças e impactos sociais, tanto positivos quanto negativos, é inegável. Sua aplicação é praticamente ilimitada, abrangendo quase todos os campos de atividade humana, e seu desenvolvimento está em crescente aceleração, tornando urgente a consideração tanto de seus benefícios quanto de seus possíveis prejuízos."</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Quais são os tipos de inteligências artificiais?</div>
+                    <h1 class="text-white mb-4">"Machine learning (aprendizado de máquina) - É como se o computador aprendesse com exemplos e experiências anteriores para melhorar seu desempenho. Por exemplo, se você ensinar a um programa de IA como reconhecer imagens de gatos, ele poderá aprender a identificar gatos em novas imagens com base no que aprendeu anteriormente."</h1>
+
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Deep learning (aprendizado profundo)</div>
+                    <h1 class="text-white mb-4">"É uma subárea da IA que utiliza redes neurais profundas para aprender e extrair informações de grandes conjuntos de dados. Ao contrário das redes neurais tradicionais, as redes de aprendizado profundo têm várias camadas ocultas que permitem que elas aprendam representações complexas e abstratas dos dados. Essa abordagem possibilita o reconhecimento de padrões e o processamento de informações de maneira mais precisa. Ele tem sido amplamente usado no reconhecimento de imagem e processamento de linguagem natural. "</h1>
+
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Processamento de Linguagem Natural (Natural Language Processing</div>
+                    <h1 class="text-white mb-4">"Área da que se concentra em ensinar computadores a entender e interagir com a linguagem humana de forma natural. Isso envolve o desenvolvimento de algoritmos e técnicas que capacitam os computadores a ler, compreender, interpretar e gerar texto, seja escrito ou falado."</h1>
+                        
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Visão computacional </div>
+                    <h1 class="text-white mb-4">"Como ensinar um computador a enxergar e entender o mundo como nós. Assim como nossos olhos capturam informações visuais, a visão computacional permite que os computadores processem e interpretem essas informações, abrindo caminho para uma ampla gama de aplicações práticas, como carros autônomos, segurança por vídeo, reconhecimento de padrões e melhorias na saúde e medicina."</h1>
+                        
+
+
+                    <p class="text-light mb-4">RESULTADOS E CLIENTES</p>
+                
+                   
+                        
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Ótimo Trabalho</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Responsivo</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Qualidade de primeira</span>
+                    </div>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">9999</h2>
+                                    <p class="text-white mb-0">Clientes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">3</h2>
+                                    <p class="text-white mb-0">Projetos Completos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/feature.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Case Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI.Tech
+                </div>
+                <h1 class="mb-4">Saiba mais sobre Tecnologia da informação</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Tech6.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Tecnologia da Comunicação</small>
+                            <h5 class="lh-base text-white mb-3"> Tecnologias aparelhos telefônicos, softwares, computadores, satélites, redes de dados, entre outros. 
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Tech4.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Mudanças sociais</small>
+                            <h5 class="lh-base text-white mb-3">" 
+
+                                 
+                                "Aumento da agilidade e eficiência em processos produtivos;
+                                Automatização de processos;
+                                Desenvolvimento econômico, científico e tecnológico."
+                               
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/Tech5.jpg" alt="">
+                        <a class="case-overlay text-decoration-none" href="">
+                            <small>Programação</small>
+                            <h5 class="lh-base text-white mb-3">"Campo de desenvolvimento de programas; como de softwares, aplicativos e sites. etc..."
+                            </h5>
+                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Case End -->
+
+
+    <!-- FAQs Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI.Tech
+                </div>
+                <h1 class="mb-4">Quais são as perguntas frequentes sobre inteligencia artificial?</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    O que é Inteligência Artificial?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    A Inteligência Artificial refere-se à capacidade de máquinas ou softwares realizarem tarefas que, historicamente, exigiriam a inteligência humana. Essas tarefas incluem aprendizado, raciocínio, reconhecimento de padrões, resolução de problemas e tomada de decisões.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Qual é o papel da IA na Medicina?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    Na medicina, a Inteligência Artificial pode ser usada para diagnósticos mais rápidos e precisos, análise de imagens médicas, descoberta de medicamentos e personalização de tratamentos. Ela promete transformar a saúde, melhorando a eficácia dos cuidados e reduzindo custos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Como a Inteligência Artificial aprende?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    A Inteligência Artificial aprende através de algoritmos e modelos que processam grandes volumes de dados. Existem dois tipos principais de aprendizado: supervisionado, em que o sistema é treinado com dados rotulados; e não supervisionado, em que a IA identifica padrões por conta própria.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    Quais são os tipos de Inteligência Artificial?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    A Inteligência Artificial (IA) podem ser divididas em três. A IA estreita, também conhecida como fraca, concentra-se em tarefas específicas, como reconhecimento de voz ou análise de dados. Esta categoria é a mais comum na atualidade, sendo amplamente aplicada em setores como saúde e finanças. Em contraste, a IA geral, ou forte, é concebida para igualar a inteligência humana em todas as áreas, realizando uma ampla gama de tarefas de maneira autônoma. Este nível de IA ainda é um desafio em desenvolvimento. Por fim, a superinteligência representa uma fronteira hipotética em que a IA supera as capacidades humanas em todos os aspectos.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Quais são as aplicações práticas da IA?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    A Inteligência Artificial tem inúmeras aplicações em setores como saúde, finanças, educação, transporte e muito mais. Ela impulsiona chatbots, assistentes virtuais, diagnósticos médicos avançados, sistemas de recomendação e carros autônomos, para citar apenas alguns exemplos.
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Como a Inteligência Artificial impacta a sociedade?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    A IA tem o potencial de otimizar processos, aumentar a eficiência e resolver problemas complexos. No entanto, também levanta questões éticas, como privacidade, automação de empregos e viés algorítmico, exigindo discussões contínuas e regulamentações adequadas.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    O que é Aprendizado Profundo (Deep Learning)?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    O Aprendizado Profundo é uma subcategoria de Inteligência Artificial baseada em redes neurais artificiais profundas. Essas redes, inspiradas no funcionamento do cérebro humano, são capazes de aprender representações complexas de dados, sendo essenciais para avanços em reconhecimento de imagem, fala e processamento de linguagem natural.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Como a Inteligência Artificial enfrenta desafios éticos?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body">
+                                    Questões éticas na IA incluem a responsabilidade por decisões automáticas, viés algorítmico, transparência e segurança. A sociedade está cada vez mais consciente desses desafios, pressionando por abordagens éticas no desenvolvimento e implementação de sistemas de IA.
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs Start -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI.Tech</div>
+                    <h1 class="mb-4">Clientes Satisfeitos!!</h1>
+                    <p class="mb-4">Qualidade!! Só Com a CodeTech!!</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">CodeTech</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/Tech7.jpg" alt="">
+                                        <h5 class="mb-0">Lucas</h5>
+                                        <small>Excelente Trabalho!!</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/Tech8.jpg" alt="">
+                                        <h5 class="mb-0">Adam </h5>
+                                        <small>Ótimo Projeto!!
+                                            Qualidade de primira!!
+                                        </small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/Tech9.jpg" alt="">
+                                        <h5 class="mb-0">Mário</h5>
+                                        <small>Projeto Incrivel!!</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/Tech10.jpg" alt="">
+                                        <h5 class="mb-0">Davi</h5>
+                                        <small>Exelente trabalho tmj!!</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!--  Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI.Tech
+                    </div>
+                    <h1 class="mb-4">O que esperar do futuro da Inteligência Artificial?</h1>
+                    <p class="mb-4">"O futuro da IA promete avanços notáveis em assistência médica, educação, automação e inovação em geral. Ao mesmo tempo, a sociedade deve estar atenta aos desafios éticos e garantir que a IA seja uma força positiva para o bem comum.
+
+                        Concluindo, a Inteligência Artificial continua a moldar o panorama tecnológico global de maneiras inimagináveis. Essas perguntas e respostas oferecem uma visão abrangente, permitindo que todos compreendam melhor o papel fundamental da IA em nossas vidas e no futuro da humanidade."</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">CodeTech</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">"A Aplicação da inteligência artificial podem resultar em medicamentos e leituras de raio X personalizados. Assistentes pessoais podem agir como treinadores, lembrando você de tomar seus remédios, se exercitar ou comer alimentos saudáveis."</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Tech11.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">AI.Tech</h5>
+                                    <span>CodeTech</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">"A IA pode analisar dados da Internet das Coisas de fábricas conforme eles são transmitidos de equipamentos conectados para prever carregamentos e demandas usando redes recorrentes, um tipo específico de rede de deep learning aplicada a dados sequenciais."</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Tech12.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">AI.Tech</h5>
+                                    <span>CodeTech</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">"A inteligência artificial é usada para capturar imagens de partidas e fornecer relatórios aos treinadores sobre como organizar melhor o jogo, o que inclui otimização de posições e de estratégias em campo."</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/Tech13.png"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">AI.Tech</h5>
+                                    <span>CodeTech</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary newsletter py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/Tech14.jpg" alt="">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Trabalhando junto com a IA</div>
+                    <h1 class="text-white mb-4">"A inteligência artificial não está aqui para nos substituir. Ela expande nossas capacidades e nos torna melhores naquilo que fazemos. Como os algoritmos de IA aprendem de maneira diferente dos seres humanos, eles olham para as coisas de maneira diferente. Eles podem ver relacionamentos e padrões que nos escapam. Essa parceria entre humanidade e inteligência artificial oferece muitas oportunidades."</h1>
+                 
+                    </div>
+                    <small class="text-white-50"></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1>
+                    </a>
+                    <p class="mb-0"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Fale Conosco</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Rua Antônio Teodoro dos Santos, Jardim Pedramar, Jacareí - SP, 12329-064</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+5512997763927</p>
+                    <p><i class="fa fa-envelope me-3"></i>luacaasgabirll025@gmai.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Links</h5>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                    <a class="btn btn-link" href="about.html">Sobre</a>
+                    <a class="btn btn-link" href="service.html">Serviços</a>
+                    <a class="btn btn-link" href="project.html">Projetos</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="contact.html">Contato</a>
+                    <a class="btn btn-link" href="">Carreira</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Outros Serviços</h5>
+                    <a class="btn btn-link" href="index.html">Home</a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Todos Os Direitos Reservados.</a>, CodeTech-AI.Tech.
+
+                      Designed By <a class="border-bottom" href="https://www.olecramti.com/novotec_00030-01-01/lucas/">HTML Codex</a> Distributed By <a class="border-bottom" href="https://www.olecramti.com/novotec_00030-01-01/lucas/">CodeTech</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
